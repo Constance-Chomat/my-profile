@@ -1,0 +1,128 @@
+/*Colors and fonts*/
+body{
+	background-color:#B7E5DD;
+	color:#9A86A4 ;
+	font-family: 'Source Serif Pro', serif;
+	font-weight: ;
+}
+
+h2, h3{
+	font-family: 'Akshar', sans-serif;
+	color: #F0F0B5;
+}
+
+h1{
+	color: #919CC6;
+	font-weight:600;
+	font-size: 42px;
+	font-family: 'Akshar', sans-serif;
+
+}
+
+h2{
+	font-size: 30px;
+	font-weight: 500;
+}
+
+h3{
+	font-size: 25px;
+	font-weight:400;
+}
+
+p{
+	text-justify: justify;
+	font-size: 17px;
+	font-weight: 500;
+}
+
+a{
+	text-decoration: none;
+	color:#52154E ;
+	font-family: 'Akshar', sans-serif;
+}
+
+a:hover{
+	color:#FF8C42 ;
+}
+
+
+/* Custom design with class */
+
+
+#photo{
+	border-radius: 50%;
+	width: 245px;
+}
+.container{
+	width: 700px;
+	margin: 40px auto;
+}
+
+
+
+@media (max-width:  760px) {
+	.container {
+		width: 600px;
+	}
+}
+
+@media (max-width:  500px) {
+	.container {
+		width: 400px;
+	}
+}
+.hobby-design{
+	background-color:#BBC8FA ;
+	padding: 20px;
+	margin: 10px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, .1);
+	border-radius: 6px;
+	text-align: center;
+}
+.othercontent-design{
+	background-color:#93CBC1 ;
+	padding: 20px;
+	margin: 10px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, .1);
+	border-radius: 6px;
+	text-align: center;
+}
+.btn-purple{
+	background-color:#52154E ;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 6px;
+	
+}
+
+.btn-purple:hover {
+	background-color:#FF8C42 ;
+	color: white;
+}
+.list-horizontal{
+	list-style: none;
+	padding-left: 0px;
+
+}
+.list-horizontal li {
+	display: inline;
+	padding: 10px;
+
+}
+.list-horizontal i {
+	font-size: 50px;
+	color:#52154E ;
+}
+.list-horizontal i:hover {
+	color:#FF8C42 ;
+}
+
+/* Design adjustments */
+#introduction p {
+	margin-bottom: 40px;
+}
+
+
+
+
+
